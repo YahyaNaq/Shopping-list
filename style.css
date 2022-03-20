@@ -1,0 +1,62 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin-left: 3%;
+  background-color: #f4ebce;
+  color: #183c28;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+p {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+input, #enter, .delete {
+  border: 1px solid #183c28;
+  background-color: #183c28;
+  color: #f4ebce;
+  font-family: Montserrat, sans-serif;
+  font-size: .7em;
+  padding: 8px;
+  /*width: 30%;
+  height: auto;*/
+  border-radius: 7px;
+  transition: .3s;
+}
+#enter {
+  font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+input {
+  font-size: 1em;
+  color: #183c28;
+  border-color: #c4bda5;
+  background-color: #ededed;
+}
+#enter:hover, .delete:hover {
+  transform: scale(1.1);
+}
+.delete:hover {
+  background-color: #bf0000;
+  border-color: #bf0000;
+}
+li {
+  padding-bottom: 11px;
+  font-size: 1.25em;
+  vertical-align: center;
+  margin-bottom: 11px;
+  border-bottom: 1px solid #d4ccb2;
+  width: 60%;
+}
+.delete {
+  /*float: right;*/
+  margin-left: 5px;
+
+}
+
+.done {
+  text-decoration: line-through;
+}
